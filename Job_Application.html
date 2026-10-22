@@ -1,0 +1,84 @@
+<html>
+<body>
+<h1>Job Application Form</h1>
+<p> Please fill all the required details.</p>
+<form>
+<fieldset>
+<legend>Personal Information</legend>
+<label for="a">Full Name:</label>
+<input id="a" type="text" placeholder="Enter Full Name">
+<br><br>
+<label for="b" placeholder="Enter your email">Email:</label>
+<input id="b" type="email" placeholder="Required">
+<br><br>
+<label for="c" placeholder="Enter Password">Phone Number:</label>
+<input id="c" type="number" placeholder="Required">
+<br><br>
+<label for="d">Age:</label>
+<input id="d" type="number" placeholder="Enter Age">
+<br><br>
+<label for="e">Date of Birth</label>
+<input id="e" type="date">
+<br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Gender</legend>
+<input type="radio">Male
+<input type="radio">Female
+<input type="radio">Others
+<br><br>
+</fieldset><br>
+<fieldset>
+<legend for="n">Course Information</legend>
+Select Course: <select name="Select a course" id="n">
+<option value="sd">Select a Course</option>
+<option value="dbchd">Btech</option>
+<option value="jcdncid">BCA</option>
+<option value="djfnjdn">BBA</option>
+<option value="djfnjdn">BSc</option>
+</select>
+<br><br>
+Semester:<select name="Semester" id="m">
+<option value="sjdf">1st Sem</option>
+<option value="jn">2nd Sem</option>
+<option value="jss">3rd Sem</option>
+<option value="uwui">4th Sem</option>
+</select>
+</fieldset>
+<br>
+<fieldset>
+<legend> Technical Skills</legend>
+<input type="checkbox">HTML<br>
+<input type="checkbox">CSS<br>
+<input type="checkbox">JavaScript
+<br>
+</fieldset>
+<br>
+<fieldset>
+<legend>About Yourself:</legend>
+<label for="f">Select City:</label>
+<select name="Select Your City" id="f">
+<option value="City">Select Your City</option>
+<option value="Bareilly">Bareilly</option>
+<option value="Badaun">Badaun</option>
+<option value="Pilibhit">Pilibhit</option>
+<option value="Kichha">Kichha</option>
+</select>
+<br><br>
+<label for="l">Full Address:</label>
+<br>
+<textarea id="l" name="about" placeholder="write here..."></textarea>
+</fieldset>
+<br>
+<fieldset>
+<legend for="j">Upload Documents:</legend>
+Upload Profile Photo:<button type="file" >Choose File</button>
+<label for="k">No file Chosen</label><br><br>
+Upload Marksheet:<button type="file">Chosse File</button>
+<label for="z">No file Chosen</label>
+<br>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Clear Form</button>
